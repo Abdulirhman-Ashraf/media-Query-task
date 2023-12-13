@@ -156,8 +156,9 @@ li:hover a {
 
 @media (max-width:700px) {
     body {
-        background-color:unset;
+        background-color: unset;
     }
+
     header .container,
     .one .container,
     .two .container {
@@ -171,7 +172,7 @@ li:hover a {
 
     header .container {
         height: fit-content;
-        font-size: 25px;
+        font-size: 15px;
 
 
     }
@@ -183,6 +184,12 @@ li:hover a {
     ul li {
         padding: 7px 15px;
         transition: all .1s linear;
+    }
+
+    .one,
+    .two {
+        margin: unset;
+
     }
 
     .one .container p {
@@ -216,12 +223,6 @@ li:hover a {
 
     }
 
-    .card:hover {
-        transform: scale(1.08, 1.08);
-        border: rgba(1, 1, 174, 0.835) 20px solid;
-
-    }
-
     .card {
         width: fit-content;
         margin: 20px auto;
@@ -229,8 +230,15 @@ li:hover a {
 
     }
 
+    .card:hover {
+        transform: scale(1.08, 1.08);
+        border: rgba(1, 1, 174, 0.835) 20px solid;
+
+    }
+
+
+
     .two img {
-        margin: auto;
         width: 300px;
     }
 
