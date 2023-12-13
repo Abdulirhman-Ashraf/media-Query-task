@@ -183,7 +183,7 @@ li:hover a {
     .one .container p {
         margin: auto;
         margin-bottom: 50px;
-        width: 300px;
+        width: 330px;
 margin-left: 20px;
 
     }
@@ -228,6 +228,7 @@ margin-left: 20px;
     }
 
     .two img {
+        margin: auto;
 
         width: 300px;
     }
