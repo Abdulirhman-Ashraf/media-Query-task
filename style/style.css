@@ -189,14 +189,12 @@ li:hover a {
         margin: auto;
         margin-bottom: 50px;
         width: 300px;
-        margin-left: 10px;
 
     }
 
     .one .img {
         width: fit-content;
         margin: auto;
-        margin-left: 10px;
 
     }
 
@@ -209,7 +207,6 @@ li:hover a {
 
     .two .container {
         margin: 20px auto;
-        margin-left: 30px;
 
     }
 
