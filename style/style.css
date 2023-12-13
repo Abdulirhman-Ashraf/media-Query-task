@@ -11,12 +11,12 @@ body {
 
 header {
     background-color: rgb(1, 1, 174);
-
 }
 
 header .container {
+
     text-align: center;
-    width: 1200px;
+    width: 1280px;
     height: 60px;
     margin: auto;
     display: flex;
@@ -36,7 +36,7 @@ header .container {
 
 .navbar ul {
     list-style: none;
-display:flex;
+    display: flex;
 }
 
 ul li {
@@ -71,7 +71,7 @@ li:hover a {
 .one .container {
     margin: 20px auto;
 
-    width: 1200px;
+    width: 1280px;
 
     text-align: center;
     display: flex;
@@ -107,7 +107,7 @@ li:hover a {
 .two .container {
     margin: 20px auto;
 
-    width: 1200px;
+    width: 1280px;
 
 }
 
@@ -159,22 +159,25 @@ li:hover a {
     header .container,
     .one .container,
     .two .container {
-        width: 435px;
+        width: 100vw;
         margin: auto;
-        padding: auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
+
     header .container {
         height: fit-content;
+        font-size: 15px;
+
 
     }
 
     .logo {
         margin: auto;
     }
+
     ul li {
         padding: 7px 15px;
         transition: all .1s linear;
@@ -183,14 +186,15 @@ li:hover a {
     .one .container p {
         margin: auto;
         margin-bottom: 50px;
-        width: 330px;
-margin-left: 20px;
+        width: 300px;
+        margin-left: 10px;
 
     }
 
     .one .img {
         width: fit-content;
-        margin: auto;margin-left: 20px;
+        margin: auto;
+        margin-left: 10px;
 
     }
 
@@ -203,8 +207,7 @@ margin-left: 20px;
 
     .two .container {
         margin: 20px auto;
-
-        width: 300px;
+        margin-left: 30px;
 
     }
 
@@ -229,7 +232,6 @@ margin-left: 20px;
 
     .two img {
         margin: auto;
-
         width: 300px;
     }
 
