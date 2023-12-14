@@ -6,6 +6,7 @@
 }
 
 body {
+
     background-color: rgb(216, 216, 247);
 }
 
@@ -14,13 +15,12 @@ header {
 }
 
 header .container {
-
-    text-align: center;
-    width: 1280px;
+    max-width: 1280px;
     height: 60px;
+    text-align: center;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: beige;
     font-size: 30px;
@@ -28,21 +28,21 @@ header .container {
 }
 
 .logo {
-    margin-left: 60px;
-    margin-right: 730px;
+    float: left;
+
+    padding: 20px;
+
 }
 
-
-
 .navbar ul {
+    margin-right: auto;
     list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
 ul li {
     padding: 13px 20px;
-
-
     transition: all .3s linear;
 }
 
@@ -55,13 +55,11 @@ li:hover {
     color: beige;
     text-decoration: none;
     transition: all .3s linear;
-
 }
 
 li:hover a {
     color: rgba(0, 0, 255, 0.635);
     transform: scale(1.2, 1.2);
-
 }
 
 .one {
@@ -69,19 +67,19 @@ li:hover a {
 }
 
 .one .container {
+    max-width: 1280px;
     margin: 20px auto;
-
-    width: 1280px;
-
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .one p {
     width: 400px;
     margin-right: 300px;
     font-size: 17px;
+
 }
 
 .one img {
@@ -105,16 +103,16 @@ li:hover a {
 }
 
 .two .container {
+    max-width: 1280px;
     margin: 20px auto;
 
-    width: 1280px;
 
 }
 
 .two .container .cards {
     display: flex;
     justify-content: space-between;
-
+    padding: 20px;
 }
 
 .card {
@@ -124,37 +122,37 @@ li:hover a {
 
 .card:hover {
     transform: scale(1.08, 1.08);
-    border: rgba(1, 1, 174, 0.835) 40px solid;
+    border: rgba(1, 1, 174, 0.835) 30px solid;
 
 }
 
 .o {
     box-shadow: rgba(1, 1, 174, 0.508) 5px 5px;
     outline: 2px solid rgb(216, 216, 247);
-    border: rgba(1, 1, 174, 0.508) 40px solid;
+    border: rgba(1, 1, 174, 0.508) 30px solid;
 
 }
 
 .t {
     box-shadow: rgba(137, 43, 226, 0.439) 5px 5px;
     outline: 2px solid rgb(216, 216, 247);
-    border: rgba(137, 43, 226, 0.439) 40px solid;
+    border: rgba(137, 43, 226, 0.439) 30px solid;
 
 }
 
 .th {
     box-shadow: rgba(80, 203, 255, 0.399) 5px 5px;
     outline: 2px solid rgb(216, 216, 247);
-    border: rgba(80, 203, 255, 0.399) 40px solid;
+    border: rgba(80, 203, 255, 0.399) 30px solid;
 
 }
 
 .two img {
 
-    width: 290px;
+    max-width: 290px;
 }
 
-@media (max-width:700px) {
+@media (max-width:1130px) {
     body {
         background-color: unset;
     }
@@ -178,8 +176,8 @@ li:hover a {
     }
 
     .logo {
+        padding-top: 10px;
         margin: auto;
-        padding-top:10px;
     }
 
     ul li {
@@ -192,17 +190,17 @@ li:hover a {
         margin: unset;
 
     }
-.one{
-    padding-bottom: 40px;
-}
+
+    .one {
+        padding-bottom: 40px;
+    }
+
     .one .container p {
         margin: auto;
+        padding-top: 40px;
         margin-bottom: 50px;
-                padding-top: 40px;
-
         width: 300px;
-        font-size:10px
-
+        font-size: 15px;
     }
 
     .one .img {
